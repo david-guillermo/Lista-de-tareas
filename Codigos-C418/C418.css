@@ -40,6 +40,15 @@ button {
     cursor: pointer;
 }
 
+#tema123 {
+    padding: 10px;
+    background: #14169e;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 button:hover {
     background: #218838;
 }

@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', loadTasks);
+document.addEventListener ('DOMContentLoaded', loadTasks);
 
 document.getElementById('task-form').addEventListener('submit', function(e) {
     e.preventDefault();

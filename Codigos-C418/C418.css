@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #a5a5a5;
 }
 
 .container {
@@ -42,8 +42,9 @@ button {
 
 #tema123 {
     padding: 10px;
-    background: #14169e;
+    background: #141418;
     color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
     border-radius: 5px;
     cursor: pointer;

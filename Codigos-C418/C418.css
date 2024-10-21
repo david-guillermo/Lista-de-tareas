@@ -4,9 +4,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #a5a5a5;
+    background-color: #939292;
 }
-
 .container {
     background: white;
     padding: 20px;
@@ -14,23 +13,22 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
-
 h1 {
     text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-style:inherit;
 }
-
 form {
     display: flex;
     justify-content: space-between;
 }
-
 input {
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 button {
     padding: 10px;
     background: #28a745;
@@ -39,7 +37,6 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-
 #tema123 {
     padding: 10px;
     background: #141418;
@@ -49,16 +46,13 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-
 button:hover {
     background: #218838;
 }
-
 ul {
     list-style: none;
     padding: 0;
 }
-
 li {
     display: flex;
     justify-content: space-between;
@@ -68,12 +62,10 @@ li {
     border-radius: 5px;
     margin-top: 10px;
 }
-
 .completed {
     text-decoration: line-through;
     color: #888;
 }
-
 .delete {
     background: #dc3545;
     color: white;
@@ -81,7 +73,6 @@ li {
     border-radius: 5px;
     cursor: pointer;
 }
-
 .delete:hover {
     background: #c82333;
 }
